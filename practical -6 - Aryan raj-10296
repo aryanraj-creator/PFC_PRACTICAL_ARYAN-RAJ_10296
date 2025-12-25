@@ -1,0 +1,18 @@
+practical 6
+1) print number from a to b using loops.
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Enter a and b: ");
+    scanf("%d %d", &a, &b);
+
+    for(int i = a; i <= b; i++) {
+        printf("%d ", i);
+    }
+    return 0;
+}
+
+// output:
+input: 3 7
+output: 3 4 5 6 7
